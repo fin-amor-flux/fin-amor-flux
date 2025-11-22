@@ -1,0 +1,8 @@
+1. Introduction
+2. Historiographie critique
+3. Matériel & méthodes
+4. Résultats
+5. Discussion
+6. Conclusion
+7. Références (APA)
+8. Annexes (cartes, CSV, DOI)
