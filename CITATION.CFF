@@ -1,12 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 authors:
-  - family-names: "TON-NOM"
-    given-names: "TON-Prénom"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "WIETZEL"
+    given-names: "Emmanuel"
 title: "fin-amor-flux: Mobility & Semantic Drift of Medieval fin'amor"
-version: 1.0.0
-doi: 10.5281/zenodo.XXXXXXX
-date-released: 2025-06-23
-url: "https://github.com/YOUR_GITHUB_NAME/fin-amor-flux"
+version: 2.0.0
+doi: 10.5281/zenodo.17674429
+date-released: 2025-11-23
+url: "https://github.com/fin-amor-flux/fin-amor-flux"
 license: "CC-BY-NC-SA-4.0"
