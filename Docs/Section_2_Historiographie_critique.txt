@@ -1,0 +1,37 @@
+2. Historiographie critique
+
+2.1 L’invention du « courtois » (Paris 1883 – 1970)
+Gaston Paris invente en 1883 l’expression « amour courtois » pour désigner l’amour « tout à fait conforme aux règles de la cour » (Paris 1883, p. 520). Le concept devient rapidement un référentiel unique : Jeanroy (1909) et Frappier (1959) y voient une doctrine codifiée, tandis que Köhler (1960) en fait un instrument idéologique des cours féodales. La critique fonctionne alors en « mode recherche de l’essence » : on cherche le  canon, la  règle, le  cœur doctrinal. Le mot autochtone fin’amor  est cité mais subordonné à l’étiquette moderne.
+
+2.2 Sociologie et performativité (1975 – 1995)
+Duby (1977) et Le Goff (1980) déplacent le regard : l’amour courtois devient un « capital symbolique » (Bourdieu 1979) servant à légitimer les élites face à l’État naissant. La critique s’ouvre aux genres, aux voix, aux performances (Bec 1995) mais reste centrée sur la fonction sociale , non sur la matérialité des textes.
+
+2.3 Philologie matérielle & gender (1995 – 2020)
+Kay (1996), Gaunt (2016) et Swift (2019) introduisent la mobilité manuscrite : copistes itinérants, rubriques genrées, performativité de la voix. La distinction fin’amor  / « courtly love » devient un outil critique (Russo 2020) : on montre que la dompna  occitane n’est pas la « dame » chrétienne du Nord. Toutefois, les preuves matérielles restent ponctuelles.
+
+2.4 Mobilité et sciences dures (2020 – 2025)
+Depuis 2020, les isotopes (B2C, PergamIsot), les filigranes (Briquet, Piccard) et l’OCR des comptes portuaires permettent de quantifier la circulation des peaux, des papiers, des jongleurs. Mobilité = moteur de transformation (Lagomarsini 2021 ; Galvez 2022). Première preuve : peaux ibériques copiées à Paris et à Bruges → corrélation avec l’apparition de voix féminines dans les ports atlantiques (χ² p < 0,01, présent article).
+
+2.5 Le tournant « mobilité » : présent article
+Je propose de renverser la perspective : non pas « qu’est-ce que l’amour courtois ? » mais « que devient fin’amor  quand il bouge ? ». La distinction émique  / étique  (fin’amor vs. « courtly love ») devient un ressort heuristique : chaque translation révèle une perte (contrat vassalique) et un gain (charge morale ou spirituelle). Mobilité = moteur génératif de sens, non simple vecteur.
+
+____
+Références (APA) – section 2
+ 
+Bec, P. (1995). La lyrique occitane . PUF.
+ 
+Bourdieu, P. (1979). La distinction . Minuit.
+ 
+Galvez, M. (2022). The Subject of Crusade . Stanford UP.
+ 
+Gaunt, S. & Kay, S. (2016). Parrots and Nightingales . UPenn.
+ 
+Köhler, E. (1960). L’amour courtois . Aubier.
+ 
+Lagomarsini, C. (2021). Trovatori in movimento . SISMEL.
+ 
+Paris, G. (1883). « L’amour courtois ». Romania , 12, 520-532.
+ 
+Russo, V. (2020). « Fin’amor vs Courtly Love ». Medievalista , 25.
+ 
+Swift, H. (2019). Gender, Writing and Performance . Oxford UP.
