@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rolls of Oleron – Female Voices</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9/dist/leaflet.js"></script>
+</head>
+<body>
+  <h2>Female jongleurs mentioned in the Rolls of Oleron (XIII-XIV s.)</h2>
+  <div id="map" style="height: 500px;"></div>
+  <script>
+    var map = L.map('map').setView([47, 2], 5);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    // points extraits du CSV
+    var points = [
+      {lat: 45.46, lon: -1.03, text: "Bordeaux – cantadeira de Portingal"},
+      {lat: 49.26, lon: 4.03,  text: "Reims – Maria la jugleresse"},
+      {lat: 51.2,  lon: 3.22,  text: "Bruges – femmes menestrels"}
+    ];
+    points.forEach(p => L.marker([p.lat, p.lon]).addTo(map).bindPopup(p.text));
+  </script>
+</body>
+</html>
