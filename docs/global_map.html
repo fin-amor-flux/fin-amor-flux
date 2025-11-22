@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>fin’amor flux – Mobility Map</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9/dist/leaflet.js"></script>
+</head>
+<body>
+  <h2>Mobility of fin’amor texts & female voices (XIII-XIV s.)</h2>
+  <div id="map" style="height: 600px;"></div>
+  <script>
+    var map = L.map('map').setView([47, 2], 5);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+    // Exemple de points (tu pourras charger le CSV généré)
+    var points = [
+      {lat: 43.3, lon: -0.37, text: "Bordeaux – Spanish skin + cantadeira"},
+      {lat: 48.86,lon: 2.35, text: "Paris – Champagne skin + cloche watermark"},
+      {lat: 45.46,lon: 9.19, text: "Milan – Lombard skin + female voice"}
+    ];
+    points.forEach(p => L.marker([p.lat, p.lon]).addTo(map).bindPopup(p.text));
+  </script>
+</body>
+</html>
