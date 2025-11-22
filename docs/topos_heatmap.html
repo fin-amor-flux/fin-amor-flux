@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Topos-Tracker – Semantic Drift</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9/dist/leaflet.js"></script>
+  <style>body{font-family:Arial}h2{color:#c00}</style>
+</head>
+<body>
+  <h2>Semantic drift : fin’amor → honor → virtus → valde (1150-1420)</h2>
+  <div id="map" style="height:600px;"></div>
+  <script>
+    var map = L.map('map').setView([47, 2], 5);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+    var drift = [
+      {lat:44.8, lon:0.6,  year:1150, word:"fin’amor", score:1.0, color:"#006837"},
+      {lat:48.9, lon:2.3,  year:1280, word:"honor",   score:0.78,color:"#78c679"},
+      {lat:45.5, lon:9.2,  year:1350, word:"virtus",  score:0.54,color:"#ffffcc"},
+      {lat:51.2, lon:3.2,  year:1420, word:"valde",   score:0.32,color:"#f7f7f7"}
+    ];
+
+    drift.forEach(d => L.circleMarker([d.lat, d.lon], {
+      radius: 10 + (1 - d.score) * 15,
+      color: d.color,
+      fillOpacity: 0.9
+    }).bindPopup(`${d.word} (${d.year}) – score : ${d.score}`).addTo(map));
+  </script>
+</body>
+</html>
