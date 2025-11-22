@@ -3,8 +3,7 @@ message: "If you use this dataset, please cite it as below."
 authors:
   - family-names: "WIETZEL"
     given-names: "Emmanuel"
-    orcid:
-"https://orcid.org/0009-0000-7301-9157" 
+    orcid: "https://orcid.org/0009-0000-7301-9157" 
 title: "fin-amor-flux: Mobility & Semantic Drift of Medieval fin'amor"
 version: 2.0.0
 doi: 10.5281/zenodo.17674429
