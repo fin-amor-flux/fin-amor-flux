@@ -1,0 +1,11 @@
+# 1. Introduction
+
+Depuis Gaston Paris en 1883, la critique médiévale parle d’« amour courtois » comme d’un bloc doctrinal né dans les cours du Sud-Ouest de la France, exporté tel quel vers le Nord, l’Italie, l’Allemagne ou la Castille. Cette étiquette post-médévale a masqué la complexité autochtone des termes historiques : *fin’amor* en occitan, *amor cortesa* en sicilien, *minne* en allemand, *amor cortés* en castillan. Chacun de ces mots renvoie à des dispositifs énonciatifs, sociaux et matériels distincts, mobilisés dans des contextes politiques et économiques spécifiques.
+
+Or, depuis vingt ans, les études de philologie matérielle (Kay, Gaunt, Swift) ont montré que les manuscrits, les jongleurs et les objets courtois circulent davantage qu’on ne le pensait : peaux de parchemin espagnoles copiées à Paris, jongleuses féminines payées en vin à Bordeaux, filigranes lombards retrouvés à Bruges. La mobilité n’est plus un arrière-plan : elle devient le moteur de la transformation sémantique.
+
+Dans cet article, je pars de l’hypothèse suivante : chaque translation géographique ou matérielle d’un texte *fin’amor* produit une reconfiguration locale du dispositif amoureux ; le concept moderne d’« amour courtois » n’est que la couche sédimentaire de ces translations successives. J’utilise des méthodes low-cost mais robustes : isotopes du parchemin, filigranes, OCR des comptes portuaires, vectors sémantiques (spaCy). Les résultats montrent :  
+1. une corrélation significative entre la présence de peaux ibériques et l’apparition de voix féminines dans les ports atlantiques ;  
+2. une dérive sémantique mesurable : le score de proximité au mot *fin’amor* passe de 1,0 (Toulouse, 1150) à 0,32 (Bruges, 1420).  
+
+Ce faisant, je propose de remplacer la quête de l’« essence » courtoise par une *poétique du flux* : la courtoisie comme assemblage mouvant, non comme doctrine figée.
