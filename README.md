@@ -1,1 +1,1 @@
-https://zenodo.org/badge/DOI/10.5281/zenodo.17674429.svg
+https://zenodo.org/badge/DOI/10.5281/zenodo.17674429
