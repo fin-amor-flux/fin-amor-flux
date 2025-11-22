@@ -1,0 +1,59 @@
+5. Discussion
+
+5.1 Interprétation globale des résultats
+
+Les données isotopiques, filigranes et comptes portuaires convergent vers un même scénario : fin’amor ne voyage pas « comme une idée pure » mais comme un assemblage matériel (peau, papier, voix, vin, deniers) dont chaque étape géographique reconfigure le contrat érotique initial.
+
+1. Matériel – la circulation des peaux ibériques vers Paris et Bruges (Tableau 1) n’est pas anecdotique : 4/6 manuscrits analysés proviennent de plus de 500 km. Même filigrane dans 3 ports (Tableau 2) prouve que le papier lui-même circule avant la copie. La mobilité n’est donc pas un arrière-plan : elle est le moteur temporel de la traduction.
+
+2. Humain – χ² = 12,47, p < 0,001 (Tableau 3) valide l’hypothèse H3 : la présence de peaux ibériques est significativement associée à l’apparition de voix féminines dans les ports atlantiques. Cramer V = 0,42 indique une association modérée à forte : plus le port reçoit des manuscrits ibériques, plus il paye des jongleuses. La femme devient locutrice lorsque le texte devient importé.
+
+3. Sémantique – dérive linéaire -0,55 points par siècle (Figure 4, r = -0,98, p < 0,01) : chaque translation linguistique réduit la charge contractuelle originelle (fin’amor = lien vassalique) au profit d’une charge morale ou spirituelle (honor, virtus, valde). La distance géographique mesure la distance sémantique.
+
+5.2 La distinction fin’amor / « amour courtois » comme outil heuristique
+
+Je ne rejette pas l’expression « amour courtois » : je l’utilise comme sonde analytique. À chaque étape, je mesure l’écart entre le terme autochtone (fin’amor, minne, amor cortesa) et le concept moderne agrégé (« courtois »). L’écart devient une variable quantifiable :  
+- score sémantique (cosinus spaCy),  
+- ratio F/H (voix féminines),  
+- distance km (isotopes + filigranes).
+
+Résultat : l’« amour courtois » n’est pas une essence exportée : il est le sédiment des translations successives – une « couche » géologique de sens superposés.
+
+5.3 Vers une « poétique du flux »
+
+Je propose de remplacer la quête de l’essence par une « poétique du flux » (concept à valider ultérieurement) :
+
+1. Flux matériel : peau, papier, parfum, vin, deniers.  
+2. Flux sémantique : fin’amor → honor → virtus → valde.  
+3. Flux social : vassal → bourgeois → citoyen → courtisan humaniste.  
+
+La courtoisité devient un assemblage mouvant, non un bloc doctrinal. La mobilité est constitutive, non accessoire.
+
+5.4 Limites méthodologiques
+
+- Petit corpus : 6 manuscrits isotopiques, 47 occurrences féminines → generalisation prudente.  
+- Pas de données musicales : absence de notation mesurée → voix reste textuelle.  
+- Proxy isotopique : localisation des pâturages = approximation ± 100 km.  
+- Bias portuaire : OCR limité aux comptes anglais & gasons → zone atlantique sur-représentée.
+
+5.5 Ouvertures & perspectives
+
+1. Expansion corpus : Allemagne (Minnesang), Scandinavie (kvinnelige trouvères), Baltique (Hanse).  
+2. Intégration musicale : notation médiévale + analyse mélodique (mode, tempo).  
+3. Deep learning : transformers historiques (BERT-med) pour drift sémantique fin XVe - XVIe.
+
+---
+
+Conclusion intermédiaire (section 5)
+
+La mobilité géographique et matérielle ne transporte pas l’« amour courtois » : elle le fabrique. Chaque translation perd une parcelle du contrat vassalique originel et gagne une couche morale ou spirituelle. La distinction fin’amor / « courtois » devient alors un outil de lecture quantifiée : l’écart mesure le mouvement. Ainsi, l’« amour courtois » n’est pas une essence exportée : il est le sédiment des translations – une poétique du flux. »
+
+---
+
+_____
+Références – section 5 (APA)
+
+- B2C Database. (2023). δ13C δ15N parchment dataset. Durham University.  
+- Passey, B. H., et al. (2021). « δ13C δ15N as mobility proxy ». Journal of Archaeological Science, 128, 105-117.  
+- Russo, V. (2020). « Fin’amor vs Courtly Love ». Medievalista, 25.  
+- Zenodo. (2025). fin-amor-flux dataset. DOI:10.5281/zenodo.XXXXXXX
