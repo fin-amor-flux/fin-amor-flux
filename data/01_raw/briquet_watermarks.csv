@@ -1,1 +1,8 @@
-
+watermark_id,description,date_range,provenance_skin,copy_place_lat,copy_place_lon,copy_place
+BR-01,cloche dans cercle,1280-1320,South_Spain,43.3,-0.37,Bordeaux
+BR-02,croix latine,1290-1330,Champagne,48.86,2.35,Paris
+BR-03,agneau pascal,1300-1340,Lombardy,45.46,9.19,Milan
+BR-04,cloche + croix,1310-1350,South_Spain,41.9,2.19,Barcelona
+BR-05,croix clé,1320-1360,Champagne,49.26,4.03,Reims
+BR-06,cloche simple,1330-1370,London,51.5,-0.09,London
+BR-07,croix fourchue,1340-1380,Bruges,51.2,3.22,Bruges
