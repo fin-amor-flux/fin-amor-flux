@@ -1,0 +1,6 @@
+pandas>=1.5
+leafmap>=0.18
+spaCy>=3.7
+jupyter
+beautifulsoup4
+requests
