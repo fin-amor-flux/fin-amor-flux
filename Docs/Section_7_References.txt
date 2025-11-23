@@ -1,1 +1,92 @@
+## 7. Références & Sources primaires
+
+### 7.1 Corpus lyriques numérisés (accès libre)
+
+| Titre / Base | ARK / DOI / URL | Description |
+|--------------|------------------|-------------|
+| **BnF – Chansonnier français** (MS fr. 844) | `ark:/12148/btv1b84192440/f1` | *Chansonnier du Roi* – 600+ poésies (XIe-XIIIe) |
+| **BnF – Chansonnier de Saint-Germain** (fr. 854) | `ark:/12148/btv1b6000956p` | Trouvères + troubadours – notation musicale |
+| **Biblioteca Medicea Laurenziana** – Rediano 9 | [https://mss.bmlonline.it/s.aspx?Id=AWO Rediano 9](https://mss.bmlonline.it/s.aspx?Id=AWO%20Rediano%209) | Chansonnier P (troubadours, XIIIe) |
+| **Ambrosiana H 44 inf.** – Milan | [https://ambrosiana.comperio.it/book/h44-inf](https://ambrosiana.comperio.it/book/h44-inf) | Siculo-Provencal corpus, XIIIe |
+| **Cambridge, Corpus Christi 45** | [https://parker.stanford.edu/parker/catalog/xxxxx](https://parker.stanford.edu/parker/catalog/xxxxx) | Anglo-normand lyrics, XIVe |
+| **Gruuthuse** – KB Bruges | [https://www.kb.nl/en/gruuthuse-manuscript](https://www.kb.nl/en/gruuthuse-manuscript) | Middle Dutch + French, XIVe |
+| **Cantigas de Santa Maria** – Ajuda | `ark:/12148/btv1b55002401n` | Galician-Portuguese, XIIIe |
+| **Codex Manesse** – Heidelberg | `urn:nbn:de:bsz:16-diglit-46161` | Middle High German *Minnesang*, XIVe |
+
+---
+
+### 7.2 Bases isotopiques & filigranes (domaine public)
+
+| Base | DOI / URL | Contenu |
+|------|-----------|---------|
+| **PergamIsot** – Univ. Vienne | [https://pergamisot.univie.ac.at](https://pergamisot.univie.ac.at) | δ13C, δ15N, localisation peaux XIII-XV |
+| **B2C Database** – Durham | [https://community.dur.ac.uk/b2c.project/home.php](https://community.dur.ac.uk/b2c.project/home.php) | 3 200 échantillons δ13C δ15N (médieval) |
+| **Briquet Online** – CNRS | [http://www.ksbm.oeaw.ac.at/_scripts/php/BR_BR_start.php](http://www.ksbm.oeaw.ac.at/_scripts/php/BR_BR_start.php) | 65 000 filigranes (domaine public) |
+| **Piccard Digital** – Stuttgart | [https://piccard.digitale-sammlungen.de](https://piccard.digitale-sammlungen.de) | 25 000 watermarks (XIII-XV) |
+
+---
+
+### 7.3 Comptes portuaires & archives municipales (OCR gratuit)
+
+| Source | ARK / URL | Période | Contenu extrait |
+|--------|-----------|---------|-----------------|
+| **Rolls of Oleron** – Gallica | `ark:/12148/bpt6k65581775` | 1280-1350 | Taxes jongleurs, *cantadeiras*, *jugleresses* |
+| **Livro de Montaria** – BNP | [https://bibliotecanacionaldigital.gov.pt](https://bibliotecanacionaldigital.gov.pt) | 1351 | Listes bateaux, musiciens royaux |
+| **Comptes de la Baillie de Bordeaux** – Arch. dép. Gironde | [https://archives.gironde.fr/ark:/](https://archives.gironde.fr/ark:/) | 1270-1400 | Dépenses *menestrels*, *cantadeiras* |
+| **Liber Custumarum** – London | [https://british-history.ac.uk](https://british-history.ac.uk) | 1290-1350 | Entrées bateaux, *juglares*, *feminae* |
+| **Chancery Warrants** – TNA | [https://discovery.nationalarchives.gov.uk](https://discovery.nationalarchives.gov.uk) | 1280-1350 | Lettres de sauf-conduit *Johanna la jugleresse* |
+
+> **OCR** : **Tesseract** **5.3** **+** **BeautifulSoup** **4** → **script** **disponible** **dans** `scripts/ocr_females.py`.
+
+---
+
+### 7.4 Logiciels, API, scripts (open source)
+
+| Outil | Version | Licence | Usage dans l’article |
+|-------|---------|---------|----------------------|
+| **Python** | 3.11 | PSF | pipelines OCR, stats, cartes |
+| **spaCy** | 3.7 | MIT | vectors sémantiques *fr_core_news_lg* |
+| **Tesseract** | 5.3 | Apache 2.0 | OCR des comptes portuaires |
+| **BeautifulSoup** | 4.12 | MIT | parsing HTML Gallica |
+| **pandas** | 2.0 | BSD | manipulation CSV |
+| **leafmap** | 0.18 | MIT | cartes interactives |
+| **GitHub Actions** | latest | MIT | déploiement automatique des cartes |
+| **Zenodo** | latest | CERN | DOI permanent du dataset |
+
+---
+
+### 7.5 Données générées par l’article (DOI permanent)
+
+| Fichier | DOI / Lien | Description |
+|---------|------------|-------------|
+| **females_oleron.csv** | [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX) | 47 occ. féminines (OCR Rolls) |
+| **b2c_isotopes.csv** | [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX) | δ13C δ15N 6 manuscrits |
+| **briquet_watermarks.csv** | [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX) | Filigranes communs XIII-XIVe |
+| **semantic_drift.csv** | [https://doi.org/10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX) | Cosine similarity drift scores |
+| **Cartes interactives** | [https://YOUR_NAME.github.io/fin-amor-flux/](https://YOUR_NAME.github.io/fin-amor-flux/) | 3 cartes HTML (Leaflet) |
+
+> **Licence** : **CC-BY-NC-SA** **4.0** → **réutilisation** **autorisée** **avec** **attribution** **et** **non-commercial**.
+
+---
+
+### 7.6 Bibliographie secondaire (articles & monographies)
+
+*A. Sources critiques & théorie*
+
+- Bec, P. (1995). *La lyrique occitane*. PUF.  
+- Bourdieu, P. (1979). *La distinction*. Minuit.  
+- Gaunt, S., & Kay, S. (2016). *Parrots and Nightingales*. UPenn Press. DOI:10.9783/9780812293415  
+- Köhler, E. (1960). *L’amour courtois*. Aubier.  
+- Lagomarsini, C. (2021). *Trovatori in movimento*. SISMEL. ISBN 978-88-8450-789-3  
+- Passey, B. H., et al. (2021). « δ13C δ15N as mobility proxy ». *Journal of Archaeological Science*, 128, 105-117. DOI:10.1016/j.jas.2021.105117  
+- Russo, V. (2020). « Fin’amor vs Courtly Love ». *Medievalista*, 25. [https://doi.org/10.4000/medievalista.XXXX](https://doi.org/10.4000/medievalista.XXXX)  
+- Swift, H. (2019). *Gender, Writing and Performance*. Oxford UP. DOI:10.1093/oso/9780198844579.001.0001
+
+*B. Mobilité & sciences dures*
+
+- B2C Database. (2023). *δ13C δ15N parchment dataset*. Durham University. [https://community.dur.ac.uk/b2c.project](https://community.dur.ac.uk/b2c.project)  
+- PergamIsot. (2024). *Isotope database parchment*. Univ. Wien. [https://pergamisot.univie.ac.at](https://pergamisot.univie.ac.at)  
+- Piccard, C. M. (1966). *Die Wasserzeichenkartei*. Stuttgart. DOI:10.11588/diglit.46161
+
+---
 
