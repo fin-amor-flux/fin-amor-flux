@@ -1,1 +1,39 @@
+## 8. Annexe
 
+### 8.1 Figures & cartes interactives (libres de droit)
+**Téléchargement direct** : cliquer sur les liens → **ouvrir** → **enregistrer** **localement** si besoin.
+
+| Figure | Lien public | Légende courte (APA) |
+|--------|-------------|----------------------|
+| **Figure 1** – *Isotopes map* | [https://YOUR_NAME.github.io/fin-amor-flux/maps/isotopes_map.html](https://YOUR_NAME.github.io/fin-amor-flux/maps/isotopes_map.html) | « Figure 1. Isotopic origin vs. copy place of medieval lyric manuscripts (1150-1400) » |
+| **Figure 2** – *Female voices map* | [https://YOUR_NAME.github.io/fin-amor-flux/females_map.html](https://YOUR_NAME.github.io/fin-amor-flux/females_map.html) | « Figure 2. Female jongleurs mentioned in Atlantic port accounts (1280-1350) » |
+| **Figure 3** – *Semantic drift* | [https://YOUR_NAME.github.io/fin-amor-flux/topos_heatmap.html](https://YOUR_NAME.github.io/fin-amor-flux/topos_heatmap.html) | « Figure 3. Semantic drift : fin’amor → honor → virtus → valde (1150-1420) » |
+
+> **Technique** : **Leaflet** **1.9** → **HTML** **autonome** → **libre** **de** **droits** **(CC-BY-NC-SA)**.
+
+---
+
+### 8.2 Tables & CSV bruts (téléchargement direct)
+
+| Fichier | Lien (repo) | Description |
+|---------|-------------|-------------|
+| **Table 1** – isotopes | [CSV](https://YOUR_NAME.github.io/fin-amor-flux/data/02_processed/isotopes_table.csv) | δ13C, δ15N, 6 manuscrits |
+| **Table 2** – filigranes | [CSV](https://YOUR_NAME.github.io/fin-amor-flux/data/02_processed/watermarks_table.csv) | Briquet + Piccard |
+| **Table 3** – female voices | [CSV](https://YOUR_NAME.github.io/fin-amor-flux/data/02_processed/females_table.csv) | 47 occurrences (OCR) |
+| **Table 4** – semantic drift | [CSV](https://YOUR_NAME.github.io/fin-amor-flux/data/02_processed/semantic_drift.csv) | Cosine similarity scores |
+
+> **Format** : **UTF-8**, **séparateur** **virgule**, **licence** **CC-BY-NC-SA** **4.0**.
+
+---
+
+### 8.3 Scripts Python (reproductibilité)
+
+| Script | Lien (repo) | Fonction |
+|--------|-------------|----------|
+| `ocr_females.py` | [script](https://YOUR_NAME.github.io/fin-amor-flux/scripts/ocr_females.py) | OCR + extraction voix F |
+| `isotopes_join.py` | [script](https://YOUR_NAME.github.io/fin-amor-flux/scripts/isotopes_join.py) | Jointure isotopes/filigranes |
+| `topos_shift.py` | [script](https://YOUR_NAME.github.io/fin-amor-flux/scripts/topos_shift.py) | Cosine drift spaCy |
+
+> **Requirements** : `requirements.txt` **dans** **le** **repo** → **installation** **via** `pip install -r requirements.txt`.
+
+---
